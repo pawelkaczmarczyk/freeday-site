@@ -1,0 +1,244 @@
+@font-face{
+    font-family: blackOps;
+    src: url(../fonts/BlackOpsOne-Regular.ttf);
+}
+@font-face{
+    font-family: keepCalm;
+    src: url(../fonts/KeepCalm-Medium.ttf);
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    border-color: #F05F40;
+    border-width: 5px;
+    max-width: 150px;
+}
+img.member{
+  width:200px;
+  border-radius:50%;
+  border: 6px solid white;
+}
+img.member6{
+  width:200px;
+  border-radius:50%;
+  border: 6px solid white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ef6515;
+    background-color: white;
+}
+nav.navbar.navbar-default.navbar-fixed-top{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse{
+  background-color: white;
+}
+a.navbar-brand.page-scroll{
+  font-family:blackOps;
+  font-weight: bold;
+  font-size:30px;
+}
+ul.nav.navbar-nav{
+  text-transform: uppercase;
+  font-family: keepCalm;
+}
+.intro-section h1{
+  display:inline-block;
+  text-transform: uppercase;
+  font-family:blackOps;
+  font-weight: bold;
+  font-size:50px;
+  margin-bottom:0px;
+  color:white;
+}
+.intro-section p{
+  font-family: keepCalm;
+  font-size:20px;
+  color:white;
+}
+a.btn{
+    font-family: keepCalm;
+    font-size:20px;
+    color:white;
+    background-color:#ef6515;
+    border-color:#ef6515;
+}
+a.btn:hover{
+    font-family: keepCalm;
+    font-size:20px;
+    color:#ef6515;
+    background-color:white;
+    border-color:white;
+}
+.col-lg-6{
+  padding: 15px 15px 15px 15px;
+}
+div.col-lg-12{
+  padding-top:60px;
+}
+.onas-section{
+  text-transform: uppercase;
+  font-family: keepCalm;
+  font-size:20px;
+  color:white;
+}
+.galeria-section{
+  text-transform: uppercase;
+  font-family: keepCalm;
+  font-size:20px;
+  color:white;
+}
+.oferta-section{
+  text-transform: uppercase;
+  font-family: keepCalm;
+  font-size:15px;
+  color:white;
+}
+.oferta-section h4{
+  text-transform: uppercase;
+  font-family: keepCalm;
+  font-size:18px;
+  font-weight:900;
+  color:white;
+}
+.video-section{
+  background-color:
+}
+.video-section h1{
+  text-transform: uppercase;
+  font-family: keepCalm;
+  font-size:50px;
+  font-weight:900;
+  color:white;
+}
+.kontakt-section{
+  text-transform: uppercase;
+  font-family: keepCalm;
+  font-size:20px;
+  color:white;
+}
+#message{
+  height:236px;
+}
+.form-control{
+  height:62px;
+  margin-bottom:25px;
+}
+button#send{
+    font-family: keepCalm;
+    font-size:20px;
+    color:white;
+    background-color:#ef6515;
+    border-color:#ef6515;
+}
+.col-lg-6 iframe{
+  padding: 6px 6px 6px 6px;
+  background-color:white;
+}
+.oferta-section.col-md-4:nth-child(odd){
+  background-color:#008080
+}
+img.member-logo{
+  width:25%;
+  height:25%;
+}
+.contact-icon{
+  padding-bottom:50px;
+}
+.fa-facebook-square{
+  color:white;
+  transition: 0.5s;
+}
+.fa-facebook-square:hover{
+  color:#3b5998;
+}
+.fa-youtube-square{
+  color:white;
+  transition: 0.5s;
+}
+.fa-youtube-square:hover{
+  color:#cd201f;
+}
+footer{
+  height:30px;
+  background-color:#4F70A6;
+  text-align:center;
+  text-transform: uppercase;
+  font-size:15px;
+  color:white;
+}
+footer p{
+    margin-bottom:0px;
+}
+.top{
+  padding-top:10px;
+}
+
+@media screen and (min-width: 767px){
+.navbar{
+   padding: 20px 0;
+   -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+   -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.top-nav-collapse{
+  padding: 0;
+}
+ 
+}
+.col-md-4{
+  margin: 0px 0px 0px 0px; 
+}
+ .intro-section {
+    height: 100%;
+    width:100%;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url("../img/mainbg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.onas-section {
+    padding-top: 50px;
+    padding-bottom:150px;
+    text-align: center;
+    background-color: #54555A;
+}
+
+.oferta-section {
+    padding-top: 150px;
+    padding-bottom:150px;
+    text-align: center;
+    background: #4F70A6;
+}
+
+.video-section {
+    width:100%;
+    padding-top: 50px;
+    padding-bottom:150px;
+    text-align: center;
+    background: #A9AAA9;
+}
+
+.galeria-section {
+    padding-top: 50px;
+    text-align: center;
+    background: #54689E;
+}
+
+.kontakt-section {
+    padding-top: 150px;
+    padding-bottom:150px;
+    text-align: center;
+    background: #101421;
+}
